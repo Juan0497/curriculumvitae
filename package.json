@@ -1,0 +1,37 @@
+{
+  "name": "curriculumvitae",
+  "version": "1.0.0",
+  "description": "Crear un proyecto desde cero con React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan0497/curriculumvitae.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juan0497/curriculumvitae/issues"
+  },
+  "homepage": "https://github.com/Juan0497/curriculumvitae#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
